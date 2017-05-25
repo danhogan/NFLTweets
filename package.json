@@ -1,0 +1,10 @@
+{
+  "name": "NFLTweets",
+  "version": "0.0.1",
+  "description": "go Bears",
+  "dependencies": {
+    "express": "^4.9.7",
+    "socket.io": "^1.1.0",
+    "twit": "^1.1.18"
+  }
+}

@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+#bearTweets, #packerTweets {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tweetContainer {
+	margin-top: 10px;
+}
+
+.tweetContainer li {
+	padding: 5px 10px;
+}
+
+.bearTweetContainer li:nth-child(odd) {
+	background-color: #03202F;
+	color: #CCC;
+}
+
+.bearTweetContainer li:nth-child(even) {
+	background-color: #DD4814;
+}
+
+.packerTweetContainer li:nth-child(odd) {
+	background-color: #213D30;
+	color: #CCC;
+}
+
+.packerTweetContainer li:nth-child(even) {
+	background-color: #FFCC00;
+}
+
+.startTime {
+	float: left;
+	margin-left: 10px;
+}
+
+.countersContainer {
+	float: right;
+	margin-right: 100px;
+}
+
+.topStats {
+	overflow: hidden;
+	margin: 10px 0px;
+}
+
+.bearTweetContainer {
+	width: 50%;
+	float: left;
+}
+
+.packerTweetContainer {
+	width: 50%;
+	float: right;
+}
+
+.bearsCounter {
+	display: inline;
+	margin-right: 100px;
+}
+
+.packersCounter {
+	display: inline;
+}
